@@ -11,3 +11,17 @@ com.example.employeemanagement
 └── exception
     └── ResourceNotFoundException.java
 └── EmployeeManagementApplication.java
+-------------------------------
+>> Add all CRUD ops, then custom
+>> Add Logging
+>> Add exception handling
+>> Add jUnit n Mockito
+>> Add Spring security, JWT, OKTA
+>> Change DB to external RDBMS; Try out NoSQL too
+>> Add caching
+>> Add Kafka, spark etc
+>> Add Rest Template
+>> Integrate with UI
+>> Deploy in GKE
+>> Containerize and orchestrate
+---------------------------------
