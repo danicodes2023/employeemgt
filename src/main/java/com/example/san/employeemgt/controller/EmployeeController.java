@@ -34,8 +34,8 @@ public class EmployeeController {
     }
     @DeleteMapping("/{id}")
     ResponseEntity<Boolean> deleteEmployee(@PathVariable Long id){
-        boolean deleted = employeeService.deleteEmployee(id);
-        return new ResponseEntity<>(deleted, HttpStatus.OK);
+        employeeService.deleteEmployee(id);
+        return new ResponseEntity<>(HttpStatus.OK);
     }
     @PutMapping
     ResponseEntity<Employee> updateEmployee(@RequestBody Employee employee){

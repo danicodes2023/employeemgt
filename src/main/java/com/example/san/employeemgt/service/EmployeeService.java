@@ -9,7 +9,7 @@ public interface EmployeeService {
     List<Employee> findAllEmployees();
 
     Employee saveEmployee(Employee employee);
-    boolean deleteEmployee(Long id);
+    void deleteEmployee(Long id);
     Employee updateEmployee(Employee employee);
     Optional<Employee> findEmployeeById(Long Id);
 }
